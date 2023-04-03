@@ -16,7 +16,7 @@ export const ACCESS_KEY = "access-control";
 export const useAccessStore = create<AccessControlStore>()(
   persist(
     (set, get) => ({
-      token: "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",
+      token: "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",
       accessCode: "",
       enabledAccessControl() {
         return queryMeta("access") === "enabled";
